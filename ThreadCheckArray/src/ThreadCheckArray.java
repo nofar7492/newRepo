@@ -1,5 +1,9 @@
 import java.util.ArrayList;
-
+/**
+ * 
+ * @author Nofar
+ * this class has two threads that go through the array and searches for numbers to "win"
+ */
 public class ThreadCheckArray implements Runnable 
 {
 	private boolean flag;

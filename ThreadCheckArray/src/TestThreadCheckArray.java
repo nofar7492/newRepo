@@ -2,6 +2,13 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+/**
+ * 
+ * @author Nofar
+ * this class gets the size of the array and its values from the user.
+ * them this class prints the original array and the binary array - 0 for numbers that didn't win, 1 for numbers that won.
+ */
+
 public class TestThreadCheckArray {
 	public static void main(String[] args) {
 		try (Scanner input = new Scanner(System.in)) {
@@ -9,12 +16,12 @@ public class TestThreadCheckArray {
 			System.out.println("Enter array size");
 			int num  = input.nextInt();
 			ArrayList<Integer> array = new ArrayList<>();
+			
 			System.out.println("Enter numbers for array");
 			
 			for (int index = 0; index < num; index++) 
-				array.set(index,input.nextInt());
-			//array.indexOf(index) = input.nextInt();
-			
+				array.add(input.nextInt());
+		
 			System.out.println("Enter number");
 			num = input.nextInt();
 			

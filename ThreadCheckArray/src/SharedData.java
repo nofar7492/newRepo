@@ -1,6 +1,11 @@
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * 
+ * @author Nofar, Debbie
+ *the class has an ArrayList, a boolean array and a boolean flag, also it has an constant int.
+ *the class checks if there are 2 numbers or more in the array that "win".
+ */
 public class SharedData 
 {
 	private ArrayList<Integer> array;
